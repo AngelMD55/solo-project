@@ -1,0 +1,75 @@
+/* ///////////////////NavBAr///////////////// */
+#navBar{
+    border-bottom: 1.5px solid black;
+    height: 42px;
+    margin-bottom: 20px;
+}
+#lionNavBar{
+    width:30px;
+}
+
+#searchNavBar{
+    width:400px;
+    height: 30px;
+}
+
+#searchBtnNav{
+    height:30px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+
+#usersPhoto{
+    width:30px;
+    border-radius: 50%;
+}
+
+/* /////////// BODY ////////// */
+
+body{
+    background-color:rgb(192, 185, 185);
+}
+
+/* ////////////////Left Bar///////////////// */
+
+.leftSideBtn{
+    width:140px;
+    text-align: left;
+    background-color: transparent;
+    border: none !important;
+}
+
+
+/* /////////// calendar ///////////// */
+
+
+td {
+    padding: 6px, 15px, 15px, 15px;
+    height: 100px;
+    width: 100px;
+    text-align: right;
+    
+    
+}
+
+td:hover{
+    background-color: rgb(85, 184, 241);
+}
+
+
+
+.inline{
+    display: inline;    
+}
+
+.calenderBtn{
+    height: 30px;
+}
+
+.calendarHeading{
+    font-size: 38px;
+    text-align: i;
+}
+
+
+
