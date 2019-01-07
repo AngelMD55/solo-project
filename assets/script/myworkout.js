@@ -163,11 +163,13 @@ function showCalendar(month, year) {
                     modalContent.appendChild(selectWorkOut);
 
                     if (workoutOption === 'Crossfit') {
-                        alert('ok')
+                        let crossfitSelect = document.createElement('select')
+
                         for (let h = 0; h < CrossfitArr.length; h++) {
                             let crossfitOption = document.createElement('option')
                             crossfitOption.text = CrossfitArr[h];
-                            workoutOption.append(crossfitOption);
+                            crossfitSelect.append(crossfitOption);
+                            modalContent.appendChild(crossfitSelect);
                         }
                     }
                 }
